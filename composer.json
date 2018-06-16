@@ -7,9 +7,15 @@
         "name": "Stephen Coakley",
         "email": "me@stephencoakley.com"
     }],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Carpenter0100/phpws"
+        }
+    ],
     "require": {
         "php": ">=5.5",
-        "devristo/phpws": "dev-master",
+        "mpociot/phpws": "dev-master",
         "evenement/evenement": "2.0.*",
         "guzzlehttp/guzzle": "~6.0",
         "react/event-loop": "^0.4.1",
